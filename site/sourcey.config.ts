@@ -56,6 +56,7 @@ export default defineConfig({
               pages: [
                 { page: "changelog", label: "Changelog" },
                 { page: "provenance", label: "Provenance" },
+                { page: "report", label: "Maintainer report" },
               ],
             },
           ],
