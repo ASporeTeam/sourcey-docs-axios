@@ -19,6 +19,15 @@ tools:
 runners:
   build:
     default: true
+    inputs:
+      public_url:
+        type: string
+        required: true
+        description: The published docs URL this receipt must cover.
+      site_root:
+        type: string
+        required: true
+        description: The repository/site root that hosts the docs (parent domain home).
     result_from: [attest]
     steps:
       - id: build
@@ -50,7 +59,7 @@ runners:
             - /dev/null
             - -w
             - "%{http_code} %{size_download} %{url_effective}"
-            - https://asporeteam.github.io/sourcey-docs-axios/docs/
+            - $input.public_url
           cwd: .
           output_mode: text
           timeout_ms: 120000
@@ -59,14 +68,14 @@ runners:
         tool: receipt.attest
         inputs:
           action: >-
-            Built the Sourcey-generated axios API reference from the pinned upstream
-            tree (axios/axios v1.21.0 at commit e6b79d9cef796ca3a903bb83e51d4752b019fd67)
-            and published it to GitHub Pages at
-            https://asporeteam.github.io/sourcey-docs-axios/docs/
+            Built the Sourcey-generated API reference from the pinned upstream tree
+            (axios/axios v1.21.0 at commit e6b79d9cef796ca3a903bb83e51d4752b019fd67)
+            and published it at the public URL named in this receipt, hosted under the
+            site root named in this receipt.
           claim: >-
-            The site served at https://asporeteam.github.io/sourcey-docs-axios/docs/ is
-            the static output of the Sourcey v3.8.3 build run in this receipt, generated
-            from the pinned axios commit, and it answers 200 from outside.
+            The site served at the public URL named in this receipt is the static
+            output of the Sourcey v3.8.3 build run in this receipt, generated from the
+            pinned upstream commit, and it answers 200 from outside.
           principal: agent-4
           evidence:
             - ref: "runx:step:build:command_execution"
@@ -77,8 +86,9 @@ runners:
             - ref: "runx:step:verify:command_execution"
               digest: $steps.verify.command_execution.stdout_digest
               proves: >-
-                The published URL https://asporeteam.github.io/sourcey-docs-axios/docs/
-                answered HTTP 200 with 24993 bytes when fetched from outside this sandbox.
+                The public URL named in this receipt answered HTTP 200 when fetched
+                from outside this sandbox; the exact status and byte count are in the
+                step output this digest covers.
             - ref: "https://github.com/axios/axios@e6b79d9cef796ca3a903bb83e51d4752b019fd67"
               digest: sha256:9b54e731d4d064192a99539a0165f6c5cd4da4a9d52e0f8a4a8b269bca7140c3
               proves: >-

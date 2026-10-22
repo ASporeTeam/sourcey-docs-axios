@@ -2,6 +2,7 @@
   "artifact": "agent4 #33 public_url + evidence for the Sourcey docs site",
   "attestation_decision": "ready_to_seal",
   "attestation_gaps": [],
+  "evidence_url": "https://asporeteam.github.io/sourcey-docs-axios/evidence.json",
   "generated_at": "2026-10-22T12:24:57Z",
   "generator": {
     "adapter": "markdown",
@@ -29,14 +30,18 @@
     "tool": "Sourcey",
     "version": "3.8.3"
   },
+  "inventory_url": "https://raw.githubusercontent.com/ASporeTeam/sourcey-docs-axios/main/site/inventory.json",
   "observations": [
     "runx --version -> runx-cli 0.10.2 (>= 0.6.13 required by the bounty)",
     "Sourcey v3.8.3 built 17 pages in this run (exit code 0); stdout digest sha256:7ecf19bd80260523a1ebf1242715d39d973cd1e60c95841da5f74e7e5a0f4312",
     "curl from outside the sandbox: '200 24993 https://asporeteam.github.io/sourcey-docs-axios/docs/' (stdout digest sha256:21a17994f09935a17d6007245926b8a3f912de369fb2448bf9ec961539cb835e)",
     "public API inventory parsed from the pinned tree: 118 items (functions 9, classes 4, instance methods 13, static exports 16, interfaces 36, types 13, enums 1, config options 12, error codes 11, adapters 3)",
     "upstream pin: https://github.com/axios/axios @ e6b79d9cef796ca3a903bb83e51d4752b019fd67 (MIT)",
-    "input checksums of the files the reference was derived from are in site/GENERATED.json (input_sha256)"
+    "input checksums of the files the reference was derived from are in site/GENERATED.json (input_sha256)",
+    "receipt re-sealed against the FINAL published build (report page included): sha256:5a8f58d50fcf85536faf23742d2972208d6d9aa9b077735f814fcf328141e218",
+    "report artifact published at https://asporeteam.github.io/sourcey-docs-axios/report.md (maintainer-facing coverage + gaps)"
   ],
+  "parent_home": "https://asporeteam.github.io/ (SPORE documentation publisher landing page)",
   "public_api_inventory": {
     "adapters": [
       "http",
@@ -300,11 +305,15 @@
   },
   "public_url": "https://asporeteam.github.io/sourcey-docs-axios/docs/",
   "public_url_notes": "GitHub Pages under the real GitHub account ASporeTeam (not a preview/sandbox host); site root redirects to /docs/.",
-  "receipt_ref": "sha256:f55a007e7ea42bb4028f60497ea11f8f5bbb0fbdd2c1ba9df87559a3e357f94e",
+  "re_seal_command": "/srv/shared/gc/notes/runx-cli/runx skill /srv/shared/gc/notes/agent4-sourcey-docs/skill/sourcey-build build -i public_url=<the public_url you deliver> -i site_root=<the site root> -R /srv/shared/gc/notes/agent4-sourcey-docs/receipts --json",
+  "receipt_ref": "sha256:5a8f58d50fcf85536faf23742d2972208d6d9aa9b077735f814fcf328141e218",
   "receipt_skill": "notes/agent4-sourcey-docs/skill/sourcey-build (native, 0 agent acts, 3 recorded steps: build -> verify -> attest)",
-  "receipt_verify_command": "/srv/shared/gc/notes/runx-cli/runx verify sha256:f55a007e7ea42bb4028f60497ea11f8f5bbb0fbdd2c1ba9df87559a3e357f94e --receipt-dir /srv/shared/gc/notes/agent4-sourcey-docs/receipts --trust home",
-  "receipt_verify_output": "tree sha256:f55a007e7ea42bb4028f60497ea11f8f5bbb0fbdd2c1ba9df87559a3e357f94e (4 receipts): ok / verification: ok",
+  "receipt_verify_command": "/srv/shared/gc/notes/runx-cli/runx verify sha256:5a8f58d50fcf85536faf23742d2972208d6d9aa9b077735f814fcf328141e218 --receipt-dir /srv/shared/gc/notes/agent4-sourcey-docs/receipts --trust home",
+  "receipt_verify_output": "tree sha256:5a8f58d50fcf85536faf23742d2972208d6d9aa9b077735f814fcf328141e218 (5 receipts): ok / verification: ok",
   "repo": "https://github.com/ASporeTeam/sourcey-docs-axios",
+  "report_page": "https://asporeteam.github.io/sourcey-docs-axios/docs/report/",
+  "report_url": "https://asporeteam.github.io/sourcey-docs-axios/report.md",
+  "site_root": "https://asporeteam.github.io/sourcey-docs-axios/",
   "target_library": {
     "commit_date": "2026-10-21T14:39:55+02:00",
     "license": "MIT",
