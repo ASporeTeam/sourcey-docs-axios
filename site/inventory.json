@@ -1,0 +1,261 @@
+{
+  "adapters": [
+    "http",
+    "xhr",
+    "fetch"
+  ],
+  "classes": [
+    {
+      "members": [
+        "set",
+        "set",
+        "set",
+        "get",
+        "get",
+        "get",
+        "has",
+        "delete",
+        "clear",
+        "normalize",
+        "concat",
+        "toJSON",
+        "toJSON",
+        "toJSON",
+        "from",
+        "parseParameters",
+        "accessor",
+        "concat",
+        "setContentType",
+        "getContentType",
+        "getContentType",
+        "hasContentType",
+        "setContentLength",
+        "getContentLength",
+        "getContentLength",
+        "hasContentLength",
+        "setAccept",
+        "getAccept",
+        "getAccept",
+        "hasAccept",
+        "setUserAgent",
+        "getUserAgent",
+        "getUserAgent",
+        "hasUserAgent",
+        "setContentEncoding",
+        "getContentEncoding",
+        "getContentEncoding",
+        "hasContentEncoding",
+        "setAuthorization",
+        "getAuthorization",
+        "getAuthorization",
+        "hasAuthorization",
+        "getSetCookie",
+        "toString"
+      ],
+      "name": "AxiosHeaders"
+    },
+    {
+      "members": [
+        "from"
+      ],
+      "name": "AxiosError"
+    },
+    {
+      "members": [],
+      "name": "CanceledError"
+    },
+    {
+      "members": [
+        "getUri",
+        "request",
+        "get",
+        "delete",
+        "head",
+        "options",
+        "post",
+        "put",
+        "patch",
+        "postForm",
+        "putForm",
+        "patchForm",
+        "query"
+      ],
+      "name": "Axios"
+    }
+  ],
+  "commit": "e6b79d9cef796ca3a903bb83e51d4752b019fd67",
+  "commit_date": "2026-10-21T14:39:55+02:00",
+  "config_options": {
+    "adapter": "['xhr', 'http', 'fetch']",
+    "env": "{",
+    "headers": "{",
+    "maxBodyLength": "-1",
+    "maxContentLength": "-1",
+    "timeout": "0",
+    "transformRequest": "[",
+    "transformResponse": "[",
+    "transitional": "transitionalDefaults",
+    "validateStatus": "function validateStatus(status) {",
+    "xsrfCookieName": "'XSRF-TOKEN'",
+    "xsrfHeaderName": "'X-XSRF-TOKEN'"
+  },
+  "enums": [
+    "HttpStatusCode"
+  ],
+  "error_codes": [
+    "ERR_BAD_OPTION",
+    "ERR_BAD_OPTION_VALUE",
+    "ERR_BAD_REQUEST",
+    "ERR_BAD_RESPONSE",
+    "ERR_CANCELED",
+    "ERR_DEPRECATED",
+    "ERR_FORM_DATA_DEPTH_EXCEEDED",
+    "ERR_FR_TOO_MANY_REDIRECTS",
+    "ERR_INVALID_URL",
+    "ERR_NETWORK",
+    "ERR_NOT_SUPPORT"
+  ],
+  "functions": [
+    {
+      "name": "getAdapter",
+      "signature": "(\n  adapters: AxiosAdapterConfig | AxiosAdapterConfig[] | undefined\n): AxiosAdapter"
+    },
+    {
+      "name": "toFormData",
+      "signature": "(\n  sourceObj: object,\n  targetFormData?: GenericFormData,\n  options?: FormSerializerOptions\n): GenericFormData"
+    },
+    {
+      "name": "formToJSON",
+      "signature": "(form: GenericFormData | GenericHTMLFormElement): object"
+    },
+    {
+      "name": "isAxiosError",
+      "signature": "<T = any, D = any, P = any>(\n  payload: any\n): payload is AxiosError<T, D, P>"
+    },
+    {
+      "name": "spread",
+      "signature": "<T, R>(callback: (...args: T[]) => R): (array: T[]) => R"
+    },
+    {
+      "name": "isCancel",
+      "signature": "<T = any, D = any, P = any>(value: any): value is CanceledError<T, D, P>"
+    },
+    {
+      "name": "all",
+      "signature": "<T>(values: Array<T | Promise<T>>): Promise<T[]>"
+    },
+    {
+      "name": "mergeConfig",
+      "signature": "<D = any, P = any>(\n  config1: AxiosRequestConfig<D, P>,\n  config2: AxiosRequestConfig<D, P>\n): AxiosRequestConfig<D, P>"
+    },
+    {
+      "name": "create",
+      "signature": "(config?: CreateAxiosDefaults): AxiosInstance"
+    }
+  ],
+  "http_verbs": [
+    "get",
+    "delete",
+    "head",
+    "options",
+    "post",
+    "put",
+    "patch",
+    "purge",
+    "link",
+    "unlink",
+    "query"
+  ],
+  "instance_methods": [
+    "getUri",
+    "request",
+    "get",
+    "delete",
+    "head",
+    "options",
+    "post",
+    "put",
+    "patch",
+    "postForm",
+    "putForm",
+    "patchForm",
+    "query"
+  ],
+  "interfaces": [
+    "RawAxiosHeaders",
+    "AxiosRequestTransformer",
+    "AxiosResponseTransformer",
+    "AxiosAdapter",
+    "AxiosBasicCredentials",
+    "AxiosProxyConfig",
+    "TransitionalOptions",
+    "GenericAbortSignal",
+    "FormDataVisitorHelpers",
+    "SerializerVisitor",
+    "SerializerOptions",
+    "FormSerializerOptions",
+    "ParamEncoder",
+    "CustomParamsSerializer",
+    "ParamsSerializerOptions",
+    "AxiosProgressEvent",
+    "LookupAddressEntry",
+    "AxiosRequestConfig",
+    "InternalAxiosRequestConfig",
+    "HeadersDefaults",
+    "AxiosDefaults",
+    "CreateAxiosDefaults",
+    "AxiosResponse",
+    "AxiosResponseDefault",
+    "CancelStatic",
+    "Cancel",
+    "Canceler",
+    "CancelTokenStatic",
+    "CancelToken",
+    "CancelTokenSource",
+    "AxiosInterceptorOptions",
+    "AxiosInterceptorManager",
+    "AxiosInstance",
+    "GenericFormData",
+    "GenericHTMLFormElement",
+    "AxiosStatic"
+  ],
+  "library": "axios",
+  "license": "MIT",
+  "public_api_count": 118,
+  "source_files_tracked": 506,
+  "static_exports": [
+    "Cancel",
+    "CancelToken",
+    "Axios",
+    "AxiosError",
+    "HttpStatusCode",
+    "VERSION",
+    "isCancel",
+    "all",
+    "spread",
+    "isAxiosError",
+    "toFormData",
+    "formToJSON",
+    "getAdapter",
+    "CanceledError",
+    "AxiosHeaders",
+    "mergeConfig"
+  ],
+  "types": [
+    "AxiosHeaderValue",
+    "AxiosHeaderParameters",
+    "RawAxiosRequestHeaders",
+    "AxiosRequestHeaders",
+    "RawAxiosResponseHeaders",
+    "AxiosResponseHeaders",
+    "Method",
+    "ResponseType",
+    "responseEncoding",
+    "AddressFamily",
+    "LookupAddress",
+    "RawAxiosRequestConfig",
+    "AxiosPromise"
+  ],
+  "upstream": "https://github.com/axios/axios",
+  "version": "1.21.0"
+}
