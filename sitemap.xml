@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/getting-started/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/guides/interceptors/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/guides/cancellation/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/guides/errors/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/guides/forms/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/functions/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/instance/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/classes/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/config/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/adapters/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/errors/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/types/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/reference/enums/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/changelog/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/provenance/</loc></url>
+  <url><loc>https://asporeteam.github.io/sourcey-docs-axios/docs/report/</loc></url>
+</urlset>

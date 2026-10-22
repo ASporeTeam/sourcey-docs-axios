@@ -1,0 +1,133 @@
+{
+  "/sourcey-docs-axios/docs/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/getting-started/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/getting-started/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/guides/interceptors/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/interceptors/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/guides/cancellation/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/cancellation/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/guides/errors/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/errors/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/guides/forms/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/forms/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/functions/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/functions/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/instance/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/instance/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/classes/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/classes/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/config/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/config/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/adapters/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/adapters/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/errors/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/errors/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/types/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/types/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/reference/enums/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/enums/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/changelog/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/changelog/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/provenance/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/provenance/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/docs/report/index.md": {
+    "Content-Type": "text/markdown; charset=utf-8",
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/report/>; rel=\"canonical\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\""
+  },
+  "/sourcey-docs-axios/documents.json": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "/sourcey-docs-axios/llms.txt": {
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "/sourcey-docs-axios/llms-full.txt": {
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "/sourcey-docs-axios/docs/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/getting-started/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/getting-started/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/guides/interceptors/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/interceptors/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/guides/cancellation/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/cancellation/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/guides/errors/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/errors/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/guides/forms/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/guides/forms/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/functions/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/functions/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/instance/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/instance/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/classes/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/classes/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/config/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/config/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/adapters/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/adapters/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/errors/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/errors/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/types/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/types/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/reference/enums/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/reference/enums/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/changelog/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/changelog/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/provenance/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/provenance/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/docs/report/": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/docs/report/index.md>; rel=\"alternate\"; type=\"text/markdown\", <https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  },
+  "/sourcey-docs-axios/404.html": {
+    "Link": "<https://asporeteam.github.io/sourcey-docs-axios/llms.txt>; rel=\"describedby\"; type=\"text/plain\""
+  }
+}

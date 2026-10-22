@@ -1,0 +1,21 @@
+# axios 1.21.0 API reference
+
+## Documentation
+
+- [axios 1.21.0 API reference](https://asporeteam.github.io/sourcey-docs-axios/docs/index.md): Sourcey-generated API reference for axios 1.21.0, built from the pinned commit e6b79d9cef79.
+- [Getting started](https://asporeteam.github.io/sourcey-docs-axios/docs/getting-started/index.md): Install axios and make the first request, with cancellation and error handling.
+- [Interceptors](https://asporeteam.github.io/sourcey-docs-axios/docs/guides/interceptors/index.md): Request and response interceptors: order of execution, rejection handling and removal.
+- [Cancellation](https://asporeteam.github.io/sourcey-docs-axios/docs/guides/cancellation/index.md): Cancelling axios requests with AbortSignal and with the legacy CancelToken.
+- [Error handling guide](https://asporeteam.github.io/sourcey-docs-axios/docs/guides/errors/index.md): How to distinguish network failures, timeouts, HTTP errors and cancellations.
+- [Form data](https://asporeteam.github.io/sourcey-docs-axios/docs/guides/forms/index.md): Sending urlencoded and multipart form data with axios, including the automatic form helpers.
+- [Request helpers](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/functions/index.md): Top-level axios functions: request helpers, defaults merging, and error predicates.
+- [Instance API](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/instance/index.md): The axios instance: request methods, defaults, interceptors and the request pipeline.
+- [Classes](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/classes/index.md): axios classes: Axios, AxiosError, AxiosHeaders, Cancel, CancelToken and CanceledError.
+- [Request config](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/config/index.md): Every axios request configuration option and the default value from the pinned source.
+- [Adapters](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/adapters/index.md): The axios adapter layer: xhr, http and fetch, and how to swap one in.
+- [Errors](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/errors/index.md): AxiosError codes parsed from the pinned source, and what each code means.
+- [Types and interfaces](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/types/index.md): The exported TypeScript types of axios: request config, response shape, headers and errors.
+- [Enumerations](https://asporeteam.github.io/sourcey-docs-axios/docs/reference/enums/index.md): The exported TypeScript enums of axios, including the HTTP status code list.
+- [Changelog](https://asporeteam.github.io/sourcey-docs-axios/docs/changelog/index.md): Recent axios releases, extracted from the CHANGELOG.md of the pinned commit.
+- [Provenance](https://asporeteam.github.io/sourcey-docs-axios/docs/provenance/index.md): How this documentation site was generated: pinned commit, tools, commands and checksums.
+- [Maintainer report](https://asporeteam.github.io/sourcey-docs-axios/docs/report/index.md): Maintainer-facing report on the generated axios reference: coverage, real gaps, and what to do next.
